@@ -231,7 +231,7 @@ Flight & Airline Insights
 ## Suggested cleaning:
 
 -   No major cleaning basic cleaning Required.
--   Duration col is in hr covert it into mins also while keeping hour col as it is.
+-   Duration col is in hr(hours) convert it into mins(minutes) also while keeping hour col as it is.
 -   Based on Total_stop col create a new column Route type(0='non stop',1='1 stop',>1='Multiple stops')
 -   Based on dep_time col craete a new column Departure period(Early morning,morning,Evening,Afternoon and night)
 
