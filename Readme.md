@@ -230,34 +230,35 @@ Flight & Airline Insights
 
 ## Suggested cleaning:
 
-1] No major cleaning basic cleaning Required.
-2] Duration col is in hr covert it into mins also while keeping hour col as it is.
-3] Based on Total_stop col create a new column Route type(0='non stop',1='1 stop',>1='Multiple stops')
-4] Based on dep_time col craete a new column Departure period(Early morning,morning,Evening,Afternoon and night)
+-   No major cleaning basic cleaning Required.
+-   Duration col is in hr covert it into mins also while keeping hour col as it is.
+-   Based on Total_stop col create a new column Route type(0='non stop',1='1 stop',>1='Multiple stops')
+-   Based on dep_time col craete a new column Departure period(Early morning,morning,Evening,Afternoon and night)
+
+
 
 ## Modelling:
 
-1] create a calculated calendar column using date of journey column and build relationship one to many(calendar to date of journey), This will help in analysis.
+-  create a calculated calendar column using date of journey column and build relationship one to many(calendar to date of journey), This will help in analysis.
+
 
 ## Measures needed:
 
-1] Avg_flight_duration(hr)
-2] Avg_flight_duration(min)
-3] Avg_stops
-4] Avg_Ticket_price
-5] Cheapest_route
-6] cheapest Airline
-7] Expensive_route
-8] Max_Ticket_price
-9] Min_Ticket_price
-10] non stop flight
-11] non stop flight %
-12] Price range
-13] Total Airlines
-14] Total flights
-15] Total Revenuw
-16] Total routes
-
+-   Avg_flight_duration(hr)
+-   Avg_flight_duration(min)
+-   Avg_stops
+-   Avg_Ticket_price
+-   Cheapest_route
+-   cheapest Airline
+-   Expensive_route
+-   Max_Ticket_price
+-   Min_Ticket_price
+-   non stop flight
+-   non stop flight %
+-   Price range
+-   Total Airlines
+-   Total flights 
+-   Total routes
 
 
 ## 👨‍💻 Author
